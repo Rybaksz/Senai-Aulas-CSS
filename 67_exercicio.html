@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio</title>
+
+<style>
+body{
+    background-color: rgb(91, 185, 33);
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container{
+background-color: yellow;
+display: flex;
+justify-content: space-between;
+margin-top: 30px;
+width: 80vw;
+border: solid 1px rgb(0, 0, 0);
+
+
+}
+.Filhos{
+    background: linear-gradient( rgb(117, 230, 226),rgb(0, 34, 255),rgb(78, 139, 219));
+    width: 400px;
+    height: 450px;
+    border-radius: 20px;
+    margin: 30px;
+    box-shadow: 2px 2px 2px 2px rgba(57, 255, 252, 0.693);
+    animation: animate 6s linear infinite;
+    
+
+}
+
+@keyframes animate{
+
+    0%{
+        filter: hue-rotate(10deg);
+    }
+
+    100%{
+        filter: hue-rotate(80deg);
+    }
+
+
+
+}
+
+</style>
+
+</head>
+<body>
+        <div class="container">
+        <div class="Filhos"></div>
+        <div class="Filhos"></div>
+        <div class="Filhos"></div>  
+        <div class="Filhos"></div>  
+    </div>  
+    
+</body>
+</html>

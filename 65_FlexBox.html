@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox</title>
+    <style>
+        .Container {
+            background-color: greenyellow;
+            width: 500px;
+            flex-direction: row;
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            
+            /* Justify-content ele permite que você faça o alinhamento de todos os itens para o lado que você quiser do elemento 
+            container */
+            /* space-between cria espaçamentos iguais entre eles onde ele só não coloca o espaçamento no começo */
+
+         
+
+            /*    flex-direction: row;
+            flex-wrap: wrap;
+ */
+
+
+            /* wrap é uma quebra de linha ou seja vai quebrar a linha para baixo */
+
+
+            /* Column-reverse faz o primeiro ser o ultimo e assim por diante */
+            /* Flex Direction permite que você deixe os itens na direção em linha ou em coluna */
+            /* DisplayFlax quebra os elementos de ficar em bloco e eles ficam um do lado do outro */
+        }
+
+        .Filhos {
+            width: 50px;
+            height: 50px;
+            border: solid 2px blue;
+            background-color: yellow;
+            margin: 10px;
+            padding: 10px;
+          
+            
+        }
+    
+
+        /* Flexbox sempre vai atuar em cima do elementor pai/Container */
+
+    </style>
+</head>
+
+<body>
+
+    <!--  .Container>.Filhos{$}*3 -->
+
+    <div class="Container">
+
+        <div class="Filhos"><span>1</span></div>
+        <div class="Filhos"><span>2</span></div>
+        <div class="Filhos"><span>3</span></div>
+        <div class="Filhos"><span>4</span></div>
+        <div class="Filhos"><span>5</span></div>
+        <div class="Filhos"><span>6</span></div>
+        <div class="Filhos"><span>7</span></div>
+
+    </div>
+
+</body>
+
+</html>

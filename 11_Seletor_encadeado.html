@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletor Encadeado</title>
+    <style>
+        div p {
+            color: rgb(191, 0, 255);
+        }
+
+        p {
+            color: blue
+        }
+
+        /* quando quiser selecionar algo especifico sempre bom utilizar o exemplo abaixo que seleciona somente a tag span dentro da div que está dentro de um parágrafo */
+        div p span {
+            background-color: rgb(211, 226, 43);
+        }
+    </style>
+</head>
+
+<body>
+    <!--  -->
+    <!-- Tem uma div que é um quadrado que dentro desta caixa vai ter um paragrafo com um texto lorem dentro (div>p>lorem)*3 -->
+    <!-- ()*3 Fechou entre parenteses para multiplicar a estrutura inteira -->
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex in quae tempora distinctio consectetur eveniet,
+            minima quos explicabo rerum asperiores <span>officia</span> officia molestiae, inventore, sapiente repellat
+            cum!
+            Inventore, soluta quibusdam.</p>
+    </div>
+    <div>
+        <p>Repellat doloribus corrupti adipisci sunt recusandae architecto aut illum, earum possimus tenetur ipsa saepe
+            harum nostrum nam beatae, nisi minus aperiam esse, laudantium explicabo? At eligendi ipsam corporis incidunt
+            maxime?</p>
+    </div>
+    <div>
+        <p>Repellendus dolorem sunt quaerat molestias minima possimus autem earum ab, quod aperiam voluptate soluta fuga
+            praesentium officiis, optio odit ea, enim nam incidunt ipsum. Praesentium fugiat sed nihil eveniet natus.
+        </p>
+    </div>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati natus nam architecto ab quod doloremque, rem
+        et vitae blanditiis ex expedita <span>officia</span> illum odio voluptas quisquam exercitationem soluta,
+        temporibus quo porro?</p>
+
+
+
+</body>
+
+</html>
